@@ -1,0 +1,2 @@
+# CovidTweetSentimentAnalysis
+A full-scale working end-to-end ready for use by Twitter, which makes use if  NLP techniques to analyze the  COVID-19 tweets, and understand results in terms of meaningful insights from those tweets. These include but are not limited to sentiments of tweets, the demographics of tweets, the major topics which the tweets can be classified into, and a network analysis on mentions and retweets. This can  be implemented by Twitter, and  updated in real-time for live dashboards.
