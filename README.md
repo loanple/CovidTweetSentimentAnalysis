@@ -26,6 +26,7 @@ Identify users who are highly connected by examining centrality and node degree 
 * Potential topics marketers to use to review in order to sensitive about the pandemic situation
 * The sentiments keywords shows various sentiment combination of each tweet, giving the possibility to understand groups of tweets classified by the models
 * With topic modeling, we could segregate the tweets to identify the group of tweets that Twitter should look into more to address any false information or disputed claims
+
 **Entity Recognition & Network Analysis** 
 * Classified and visualized top named entities trending during the COVID pandemic
 * Moving forward, network analysis can be expanded further by combining with account type predictions; currently, it’s hard to determine the characteristics and motives of individual users (buzzers, academics, etc.) 
