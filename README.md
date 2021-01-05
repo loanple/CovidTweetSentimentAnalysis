@@ -9,11 +9,12 @@ Understand how covid tweets relate to covid cases by evaluating entities and top
 
 ## Data Source
 * Coronavirus (COVID-19) Tweets Dataset (IEEE) & COVID19 Tweets with the hashtag #covid19 (Kaggle)
-* Extracted from the above for a period of around 36 days in total, spanning from 24th July 2020 to 30th August 2020. The data contains 179k rows spread over 13 different tweet related variables. These  179k rows are those which have a #covid19 (hashtag of covid19)
+* Extracted from the above for a period of around 36 days in total, spanning from 24th July 2020 to 30th August 2020. The data contains 179k rows spread over 13 different tweet related variables. These  179k rows are those which have a #covid19 (hashtag of covid19).
 
 ## Design Choices
-1) Entity Recognition 
-2) Topic Modeling
-3) Sentiment Analysis
-4) Network Analysis
+1) *Entity Recognition* - Information extraction that seeks to locate and classify named entities mentioned in text into predefined categories such as person names, organizations, locations etc. (Packages: spaCy)
+2) *Topic Modeling* - Identify popular topics from tweets. (Packages: nltk, pyLDAvis, .sklearn, LatentDirichletAllocation)
+3) *Sentiment Analysis* - Process the text data for sentiment packages & investigate the relationship with sentiment scores and daily cases. (Packages: nltk,  spaCy, vaderSentiment, TextBlob, Lexicon)
+4) *Network Analysis* - Identify users who are highly connected by examining centrality and node degree & find users that can spread information to many other users. (Packages: iGraph, NetworkX, or Scikit-network)
+
 
