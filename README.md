@@ -4,7 +4,7 @@ A full-scale working end-to-end ready for use by Twitter, which makes use if  NL
 ## Background
 The rapid number of COVID-19 cases globally has triggered a wave of apprehension among people. This unprecedented condition, naturally, makes topics around COVID-19 a conversation trending around the world. 
 
-## Objective 
+# Objective 
 Understand how covid tweets relate to covid cases by evaluating entities and topics involved through sentiment and network analysis; enabling users and to see correlation between certain topics and covid cases.
 
 ## Data Source
@@ -21,4 +21,12 @@ Process the text data for sentiment packages & investigate the relationship with
 4) **Network Analysis** - 
 Identify users who are highly connected by examining centrality and node degree & find users that can spread information to many other users. *(Packages: iGraph, NetworkX, or Scikit-network)*
 
+## Use Cases
+**Topic Modeling & Sentiment Analysis**
+* Potential topics marketers to use to review in order to sensitive about the pandemic situation
+* The sentiments keywords shows various sentiment combination of each tweet, giving the possibility to understand groups of tweets classified by the models
+* With topic modeling, we could segregate the tweets to identify the group of tweets that Twitter should look into more to address any false information or disputed claims
+**Entity Recognition & Network Analysis** 
+* Classified and visualized top named entities trending during the COVID pandemic
+* Moving forward, network analysis can be expanded further by combining with account type predictions; currently, it’s hard to determine the characteristics and motives of individual users (buzzers, academics, etc.) 
 
